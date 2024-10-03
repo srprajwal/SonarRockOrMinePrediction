@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    {% if prediction == 'R' %}
+        <p>The sonar data is classified as a Rock.</p>
+    {% else %}
+        <p>The sonar data is classified as a Mine.</p>
+    {% endif %}
+</body>
+</html>

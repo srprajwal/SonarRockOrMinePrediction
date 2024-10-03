@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sonar Classification</title>
+</head>
+<body>
+    <h1>Enter Sonar Data for Prediction</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <textarea name="input_data" rows="4" cols="50" placeholder="Enter 60 comma-separated values"></textarea>
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
